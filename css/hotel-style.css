@@ -1,0 +1,486 @@
+.h-rate-n-search{
+	margin-top:20px;
+}
+.hotel-rate-box{
+	position:relative;
+	height:100px;
+	height:100px;
+	display:block;
+}
+
+.hotel-rate-box .rate-hotel-photo{
+	position:absolute;
+	left:0;
+	top:0;
+	width:95px;
+	height:95px;
+}
+.hotel-rate-box .rate-h-name{
+	width:80%;
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.hotel-rate-box .h-rate-star{
+	width:100%;
+	float:left;
+	font-size:15px;
+	color:green;
+}
+
+.hotel-rate-box .h-room{
+	width:100%;
+	float:left;
+	font-size:14px;
+	color:gray;
+}
+.hotel-rate-box .rate-h-booknow{
+	position:absolute;
+	right:0px;
+	top:0px;
+	font-size:14px;
+}
+
+.h-search-form-cnt{
+	height:100px;
+	display:block;
+}
+.search-form-box{
+	position:relative;
+	height:80px;
+	display:block;
+}
+.search-form-box .city-input{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:200px;
+	font-size:15px;
+}
+
+.search-form-box .c-in-input{
+	position:absolute;
+	left:0px;
+	top:45px;
+	width:95px;
+	font-size:15px;
+}
+.search-form-box .c-out-input{
+	position:absolute;
+	left:100px;
+	top:45px;
+	width:100px;
+	font-size:15px;
+}
+.search-form-box .currency-input{
+	position:absolute;
+	left:210px;
+	top:45px;
+	width:110px;
+	padding-left:3px;
+	padding-right:3px;
+	font-size:15px;
+}
+.search-form-box .person-input{
+	position:absolute;
+	left:210px;
+	top:0px;
+	width:110px;
+	padding-left:3px;
+	padding-right:3px;
+	font-size:15px;
+}
+.search-form-box .room-input{
+	position:absolute;
+	left:330px;
+	top:0px;
+	width:110px;
+	padding-left:3px;
+	padding-right:3px;
+	font-size:15px;
+}
+.search-form-box .h-srh-btn{
+	position:absolute;
+	right:5px;
+	bottom:0px;
+	width:110px;
+	font-size:15px;
+}
+.hotel-detail{
+	margin-top:10px;
+}
+.text-cnt{
+	width:100%;
+}
+.text-cnt p{
+	margin:10px 0 0 0;
+	padding:0 10px 0 0;
+	text-align:justify;
+}
+.h-amenities {
+	margin:0 0 15px 0;
+	display:block;
+	float:left;
+}
+.toggle-v-container ul{
+	position:relative;
+	margin:0;
+	padding-left:20px;
+	display:block;
+}
+.toggle-v-container ul li{
+	margin:5px 15px 0 0;
+	padding:0 10px 0 0;
+}			
+.toggle-v-container ul li.yes{
+	margin:5px 15px 0 0;
+	padding:0 10px 0 0;
+	color:#288c0d;
+}
+/*----Up date 11-12-2013 for book now btn---------------------*/
+.crescent-rate-cnt{
+	margin:20px 0 0 0;
+	height:100%;
+	margin:10px;
+	float:left;
+	clear:both;
+}
+/*----Up date 11-12-2013 for book now btn---------------------*/
+.crescent-rate-box{
+	position:relative;
+	width:470px;
+	height:200px;
+	font-size:15px;
+	
+}
+.crescent-rate-box img.crescent-logo{
+	position:absolute;
+	left:0;
+	top:0;	
+	width:250px;
+	
+}
+.crescent-rate-box .cre-hotel-name span{
+	width:100%;
+	font-size:20px;
+	font-weight:normal;
+	float:left;
+}
+/*----New class Add 11-12-2013 ---------------------*/
+.crescent-rate-box .cre-rate-list{
+	position:absolute;
+	left:-30px;
+	top:80px;
+	width:400px;
+	list-style:none;
+
+}
+.crescent-rate-box .cre-rate-list li.rate-item{
+	list-style:none;
+	width:150px;
+	height:34px;
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+}
+.crescent-rate-box .cre-rate-list li.h-class{
+	list-style:none;
+	width:150px;
+	height:34px;
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+}
+.crescent-rate-box .cre-rate-list li.rate{
+	list-style:none;
+	height:34px;
+	float:left;
+	font-size:15px;
+	font-weight:normal;
+	color:green;
+}
+
+/*----New class Add 11-12-2013 for book now btn---------------------*/
+.book-now-btn-cnt{
+	float:left;
+	clear:both;
+	margin:0;
+	padding-left:15px;
+}
+
+/*----Map Content---------------------*/
+.map-content ul.rest-desti-lists{
+	margin:10px 0 15px 0;
+	padding:0;
+	width:100%;
+	list-style:none;
+}
+.map-content ul.rest-desti-lists li{
+	margin:10px 0 10px 0;
+	width:100%;
+	height:135px;
+	list-style:none;
+	display:block;
+	border-bottom:solid 1px #cccccc;
+}
+.map-content ul.rest-desti-lists li a.bghover{
+	position:relative;
+	padding:10px 0 5px 0;
+	width:100%;
+	height:100%;
+	display:block;
+	background:#f3f3f1;
+}
+.map-content ul.rest-desti-lists li a.bghover:hover{
+	background:#ebf2cd;
+}
+
+.map-content ul.rest-desti-lists li .rest-photo{
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:95px;
+	height:95px;
+	overflow:hidden;
+}
+.map-content ul.rest-desti-lists li .rest-photo img{
+	height:100px;
+	position:absolute;
+	left:-15px;
+	top:0px;
+}
+.map-content ul.rest-desti-lists li .rest-name-loc{
+	position:absolute;
+	left:110px;
+	top:5px;
+	font-size:16px;
+	color:#049544;
+}
+.rest-name-loc .rest-name{
+	font-size:15px;
+	color:#049544;
+	float:left;
+	clear:both;
+}
+
+.rest-name-loc span.rest-cur{
+	width:95%;
+	font-size:13px;
+	color:#414a45;
+	float:left;
+	clear:both;
+	font-weight:normal:
+}
+.rest-name-loc span.rest-dist{
+	margin:10px 0 0 0;
+	width:95%;
+	font-size:13px;
+	color:#049544;
+	float:left;
+	clear:both;
+	font-weight:normal:
+}
+.rest-name-loc span.rest-loc{
+	width:80%;
+	font-size:12px;
+	color:#414a45;
+	float:left;
+}
+.map-content ul.rest-desti-lists li .rest-rate{
+	position:absolute;
+	left:10px;
+	top:110px;
+	line-height:1;
+	font-size:13px;
+	color:#ffb258;
+}
+.rate-yes{
+	color:#ff5519;
+}
+.rate-no{
+	color:#ffb258;
+}
+.map-content ul.rest-desti-lists li .halal_logo{
+	position:absolute;
+	left:315px;
+	top:85px;
+	width:40px;
+	height:40px;
+	background:url(../images/halal_logo.png) no-repeat;
+}
+
+/*--- hotel photo- ---*/
+.hotel-banner{
+	margin:0 0 15px 0;
+
+	height:390px;
+}
+.hotel-photo-big{
+
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+.hotel-photo-big span{
+	width:522px;
+	height:300px;
+	display: block;
+	float: left;
+	text-align:center;
+	line-height:295px;
+	overflow:hidden;
+	border-radius:6px;
+	border:solid 1px #808080;
+}
+.hotel-photo-big img{
+	max-height:300px;
+	margin:auto;
+	padding:0;
+}
+.hotel-photo-small-cnt{
+	width:522px;
+	height:auto;
+	display:inline;
+	margin-top:10px;
+	overflow:hidden;
+	float:left;
+	
+}
+
+.hotel-photo-small{
+	width:83px;
+	height:60px;
+	margin:5px 2px 3px 1px;
+	padding:0;
+	float:left;
+	text-align:center;
+	line-height:55px;
+	overflow:hidden;
+
+	border-radius:2px;
+	background:#fff;
+	border:solid 1px #808080;
+
+}
+.hotel-photo-small:hover{
+	border-radius:10px;
+	background:#fff;
+	border:solid 2px #abd10a;
+}
+.hotel-photo-small img{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.hotel-photo-small:hover img{
+	width:100%;
+	margin:0;
+	padding:0;
+
+}
+
+.map-cnt-tabs ul{
+	padding:0 0 8px 0;
+}
+
+.map-cnt-tabs li.icon-list{
+	width:56px;
+	height:50px;
+	float:left;
+	margin:0 5px 0 0;
+	border:none;
+}
+.map-cnt-tabs li.icon-list a{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	border:none;
+}
+.map-cnt-tabs li.icon-list a.rest-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)0 0  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.active a.rest-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)0 -50px  no-repeat;
+	border:none;
+}
+
+.map-cnt-tabs li.icon-list a.rest-icon:hover{
+	background-position:0 -50px;
+}
+.map-cnt-tabs li.icon-list a.mos-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-56px 0  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.active a.mos-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-56px -50px no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.icon-list a.mos-icon:hover{
+	background-position:-56px -50px !important;
+}
+.map-cnt-tabs li.icon-list a.airport-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-112px 0  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.active a.airport-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-112px -50px  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.icon-list a.airport-icon:hover{
+	background-position:-112px -50px;
+}
+.map-cnt-tabs li.icon-list a.att-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-168px 0  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.active a.att-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-168px -50px  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.icon-list a.att-icon:hover{
+	background-position:-168px -50px;
+}
+.map-cnt-tabs li.icon-list a.hotel-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-224px 0  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.active a.hotel-icon{
+	width:56px;
+	height:50px;
+	overflow:hidden;
+	background:url(../img/site/map_tag_icon.png)-224px -50px  no-repeat;
+	border:none;
+}
+.map-cnt-tabs li.icon-list a.hotel-icon:hover{
+	background-position:-224px -50px;
+}

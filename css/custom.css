@@ -1,0 +1,545 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+body {
+   padding-top: 15px;
+}
+
+.popover.error-popover {
+	color: #FF0000;
+	cursor: pointer;
+}
+
+.active-on {
+	color: #9bbf05 !important;
+}
+
+.list-box .crescent-rate-small{
+	position:absolute;
+	right:15px;
+	bottom:16px;
+	font-size:15px;
+}
+.cre-rate-no-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_0.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 0px;
+}
+.cre-rate-1-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_1.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+.cre-rate-2-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_2.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+.cre-rate-3-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_3.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+.cre-rate-4-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_4.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+.cre-rate-5-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_5.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+.cre-rate-6-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_6.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+.cre-rate-7-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_7.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: absolute;
+    bottom: 10px;
+	left: 205px;
+}
+
+
+.list-box .crescent-rates-small{
+	position:absolute;
+	right:15px;
+	bottom:16px;
+	font-size:15px;
+}
+
+.cres-rate-no-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_0.jpg') no-repeat;
+	background-size:30px;
+	float:right;
+	position: relative;
+    bottom: 10px;
+}
+.cres-rate-1-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_1.jpg') no-repeat;
+	background-size:30px;
+	position: relative;
+	float:right; 
+    bottom: 10px;
+	left: -7px;
+}
+.cres-rate-2-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_2.jpg') no-repeat;
+	background-size:30px;
+	position: relative;
+	float:right; 
+    bottom: 10px;
+	left: -7px;
+}
+.cres-rate-3-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_3.jpg') no-repeat;
+	background-size:30px;
+	position: relative;
+	float:right; 
+    bottom: 10px;
+	left: -7px;
+}
+.cres-rate-4-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_4.jpg') no-repeat;
+	background-size:30px;
+	position: relative;
+	float:right; 
+    bottom: 10px;
+	left: -7px;
+}
+.cres-rate-5-small{
+	width:30px;
+	height:30px; 
+	background:url('/assets/img/site/crescent-rate/cr_rating_5.jpg') no-repeat;
+	background-size:30px;
+	position:below;
+	float:right;  
+}
+.cres-rate-6-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_6.jpg') no-repeat;
+	background-size:30px;
+	position: relative;
+	float:right; 
+    bottom: 10px;
+	left: -7px;
+}
+.cres-rate-7-small{
+	width:30px;
+	height:30px;
+	display:block;
+	background:url('/assets/img/site/crescent-rate/cr_rating_7.jpg') no-repeat;
+	background-size:30px;
+	position: relative;
+	float:right; 
+    bottom: 10px;
+	left: -7px;
+}
+
+
+/* available Room------Box-------------- */
+
+.available-rooms-sec{
+	width:100%;
+	height:100%;
+	margin:15px 0 15px 0;
+	padding:5px;
+	position:relative;
+	float:left;
+	border:solid 1px #ddd;
+	border-radius:8px;
+}
+.available-rooms-sec .sec-head{
+	width:100%;
+	height:100%;
+	float:left;
+	margin:0 0 10px 0;
+	padding:10px;
+	background:#888;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:8px;
+	color:#fff;
+}
+.one-row{
+	position:relative;
+	height:100%;
+	float:left;
+	display:block;
+	padding:0 0 15px 0;
+	border-bottom:solid 2px orange;
+}
+.one-row button{
+	margin:15px 0 0 10px;
+}
+.one-row .btn,
+.one-row .btn-warning{
+	margin:15px 0 0 0 !important;
+	float:left !important;
+}
+.one-row:last-child{
+	border:none;
+	margin:0 0 15px 0;
+}
+.photo-cnt{
+	width:100px;
+	height:100px;
+	margin:10px 10px 10px 0;
+	float:left;
+	display:block;
+	background:gray;
+	border-radius:8px;
+	overflow:hidden;
+	text-align:center;
+	line-height:99px;
+	border:solid 1px #ddd;
+}
+.photo-cnt img{
+	width:110%;
+	text-align:center;
+	margin:0 auto 0 auto;
+	
+}
+.rm-type-cnt{
+	width:75%;
+	height:100%;
+	margin:10px 0 10px 0;
+	padding:0;
+	float:left;
+	display:block;
+
+	}
+.rm-type-cnt h2{
+	width:100%;
+	float:left;
+	margin:0 0 5px 0;
+	padding:0;
+	font-size:16px;
+	line-height:25px;
+	font-weight:bold;
+	color:orange;
+	border-bottom:solid 1px #eee;
+}
+.rm-type-cnt .price-des{
+	width:100%;
+	float:left;
+	margin:0 0 5px 2px;
+	padding:0;
+	font-size:14px;
+	line-height:14px;
+	color:#777;
+}
+.rm-type-cnt .inclu-head{
+	float:left;
+	margin:0;
+	padding:0 10px 0 2px;
+	font-size:14px;
+	line-height:25px;
+	font-weight:bold;
+	color:#555;
+}
+.rm-type-cnt .inclu-des{
+	width:75%;
+	float:left;
+	margin:0;
+	padding:0 0 0 2px;
+	font-size:14px;
+	line-height:25px;
+	color:#555;
+}
+.con-max-price-sec{
+	width:100%;
+	height:100%;
+	margin:10px 0 0 0;
+	padding:0px;
+	float:left;
+	display:block;
+	border:solid 1px #999;
+	border-radius:8px;
+	overflow:hidden;
+}
+.con-sec{
+	width:40%;
+	height:100%;
+	margin:0;
+	padding:8px;
+	float:left;
+	display:block;
+}
+.con-max-price-sec h2{
+	width:100%;
+	float:left;
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:15px;
+	line-height:25px;
+	font-weight:bold;
+	color:#777;
+	border-bottom:solid 1px #ddd;
+}
+.con-sec ul{
+	padding:0 0 0 15px;
+	margin:-10px 0 0 0;
+	float:left;
+}
+.con-sec li {
+	list-style:disc !important;
+	width:100%;
+	margin:0;
+	padding:0;
+	float:left;
+	font-size:14px;
+}
+
+.max-sec{
+	width:30%;
+	height:100%;
+	margin:0;
+	padding:8px;
+	float:left;
+	display:block;
+	text-align:center;
+}
+.max-sec .max-count{
+	padding:8px;
+	background:#777;
+	color:#fff;
+	border-radius:5px;
+	float:auto;
+	
+}
+.price-sec{
+	width:30%;
+	height:100%;
+	margin:0;
+	padding:8px;
+	float:left;
+	display:block;
+}
+.price-sec .price-text{
+	height:100%;
+	margin:0;
+	padding:0;
+	float:left;
+	line-height:14px;
+}
+.avi-rm{
+	width:100%;
+	float:left;
+	margin:3px 0 0 5px;
+	padding:0px;
+}
+.avi-rm h2{
+	width:120px;
+	float:left;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	line-height:14px;
+	font-weight:bold;
+	color:#777;
+	border-right:solid 1px #999;
+}
+.avi-rm .avi-text{
+	margin:0;
+	padding:0 10px 0 10px;
+	float:left;
+	font-size:14px;
+	line-height:14px;
+}
+/* available Room------Box-----End--------- */
+								
+/* -----Policies of hotel --------------------------*/
+
+				.faci-poli{
+					position:relative;
+					width:100%;
+					height:100%;
+					margin:15px 0 15px 0;
+					float:left;
+					overflow:hidden;
+				}
+				.toggle-v-container h2{
+					width:100%;
+					height:100%;
+					margin:0 0 0 0;
+					padding:0 0 15px 0;
+					float:left;
+					font-size:18px;
+					font-weight:bold;
+					color:#9bbf05;
+					border-bottom:solid 1px #9bbf05;
+				}
+				.toggle-v-container .poli{
+					position:relative;
+					width:100%;
+					height:100%;
+					margin:0 0 10px 0;
+					padding:0;
+					float:left;
+					list-style:none;
+				}
+				.toggle-v-container .poli li{
+					width:100%;
+					height:100%;
+					padding:10px 0 10px 0;
+					float:left;
+					list-style:none;
+					float:left;
+					border-bottom:solid 1px #9bbf05;
+				}
+				.toggle-v-container .poli li .left-col{
+					width:39%;
+					height:100%;
+					margin:0;
+					float:left;
+				}
+				.toggle-v-container li .left-col .poli-head{
+					width:100%;
+					height:100%;
+					margin:0;
+					padding:0 10px 0 0;
+					font-size:16px;
+					font-weight:bold;
+					color:#444;
+					word-wrap:break-word;
+				}
+				.toggle-v-container .poli li .right-col{
+					width:61%;
+					height:100%;
+					float:left;
+					color:#444;
+				}
+				.toggle-v-container .poli li .right-col .poli-list{
+					width:100;
+					height:100%;
+					padding:0 10px 0 0;
+					float:left;
+					font-size:15px;
+					color:#444;
+				}
+				
+/* -----Policies of hotel ------------CSS end--------------*/
+.g-t-sec{
+	margin:15px 0 0 0;
+	position:relative;
+	width:100%;
+	height:100%;
+	float:left;
+}
+.g-t-sec ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	float:left;
+	color:#444;
+}
+
+.g-t-sec h2 {
+	width:100%;
+	height:100%;
+	margin:0 0 0 0;
+	padding:0 0 15px 0;
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	color:#9bbf05;
+}
+
+/*halal rate logo*/
+.crescent-rate-box img.halalrate{
+	position:absolute;
+	top:5px;	
+	left:270px;
+	width:64px;
+	height:64px;
+}
+.crescent-not-rate{
+	margin:15px 0 15px 0;
+	width:100%;
+	float:left;
+	height:100%;
+}
+.crescent-not-rate img{
+	width:64px;
+	height:64px;
+	float:left;
+}
+
+.book-now-btn-sec{
+	margin:15px 0 0 0;
+	padding:0;
+	width:100%;
+	float:left;
+	height:100%;
+}
+.book-now-btn-sec a{
+	margin:0 !important;
+}
